@@ -13,7 +13,7 @@ class lys_bot(commands.Bot):
         await self.load_cogs()
 
     async def on_ready(self):
-        await self.change_presence(activity=discord.Game(name="con las nalgas de Romel | !ping"))
+        await self.change_presence(activity=discord.Game(name="con Python | !ping"))
         print(f'Conectado como {self.user}')
 
     async def on_message(self, message):

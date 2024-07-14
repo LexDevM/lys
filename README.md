@@ -124,6 +124,7 @@ Se ha implementado un sistema de logs para registrar eventos importantes del bot
 
 - **Características Iniciales:**
   - Funcionalidad básica del bot con comandos básicos.
+  - Presencia para que el bot aparezca jugando algo en Discord.
 
 Este repositorio está en desarrollo activo y continúa mejorando. Consulta el archivo [CHANGELOG.md](CHANGELOG.md) para obtener detalles completos sobre cada release y cambios específicos.
 

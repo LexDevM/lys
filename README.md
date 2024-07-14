@@ -140,7 +140,7 @@ Este proyecto es mantenido y desarrollado activamente. Para obtener soporte o re
 
 ### Versión Alpha
 
-La versión alpha de `lys0.1.0` está disponible como un pre-release. Esta versión incluye las siguientes características:
+La versión alpha de `lys0.1.1` está disponible como un pre-release. Esta versión incluye las siguientes características:
 
 - Comando `!ping` implementado.
 - Presencia del bot configurada para mostrar que está jugando algo.

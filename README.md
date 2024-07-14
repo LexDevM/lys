@@ -18,7 +18,6 @@ Este repositorio contiene el código fuente de un bot para Discord, desarrollado
 - [Licencia](#licencia)
 - [Créditos](#créditos)
 - [Soporte](#soporte)
-- [Releases](#releases)
 
 ## Características
 
@@ -104,6 +103,10 @@ Agradezco a todas las contribuciones. Para contribuir, sigue estos pasos:
 - Haz push a la rama `git push origin feature/nombre_de_la_raam`.
 - Abre un Pull Request.
 
+## Configuración de logs
+
+Se ha implementado un sistema de logs para registrar eventos importantes del bot. Esto mejora la visibilidad y permite una depuración más efectiva. Revisar el archivo `bot/log_config.py` y los registros en `bot.log` para monitorear el comportamiento del bot y diagnosticar problemas.
+
 ## Licencia
 
 MIT License
@@ -135,19 +138,3 @@ EN EL SOFTWARE.
 ## Soporte
 
 Este proyecto es mantenido y desarrollado activamente. Para obtener soporte o realizar preguntas, únete al [servidor de Discord](https://discord.gg/NhSyY4aqdZ).
-
-## Releases
-
-### Versión Alpha
-
-La versión alpha de `lys0.1.1` está disponible como un pre-release. Esta versión incluye las siguientes características:
-
-- Comando `!ping` implementado.
-- Presencia del bot configurada para mostrar que está jugando algo.
-
-Puedes descargar o revisar esta versión en el [releases page](https://github.com/LexDevM/lys/releases/tag/alpha).
-
-### Próximas Versiones
-
-Planeo agregar más funcionalidades y mejoras en las siguientes versiones.
-

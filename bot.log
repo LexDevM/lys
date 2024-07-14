@@ -1,0 +1,35 @@
+2024-07-13 18:35:04,633 - lys_bot - INFO - Iniciando el bot
+2024-07-13 18:35:04,634 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-13 18:35:04,634 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-13 18:35:04,634 - discord.client - INFO - logging in using static token
+2024-07-13 18:35:20,029 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a6763327f7734366a9158335ba69d0cd).
+2024-07-13 19:38:08,542 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-13 19:38:08,543 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-13 19:38:08,544 - lys_bot - INFO - Iniciando el bot
+2024-07-13 19:38:08,544 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-13 19:38:08,545 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-13 19:38:08,545 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-13 19:38:08,545 - discord.client - INFO - logging in using static token
+2024-07-13 19:38:09,072 - lys_bot.cogs.admin - INFO - Cog Adming inicializado
+2024-07-13 19:38:09,072 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-13 19:38:09,072 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-13 19:38:09,073 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-13 19:38:09,073 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-13 19:38:09,073 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-13 19:38:09,681 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 24b3a552c4b8b1a72c25578a7b37286a).
+2024-07-13 19:38:11,689 - lys_bot.core - INFO - Bot conectad como lys#3830
+2024-07-13 19:41:56,465 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-13 19:41:56,465 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-13 19:41:56,467 - lys_bot - INFO - Iniciando el bot
+2024-07-13 19:41:56,467 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-13 19:41:56,468 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-13 19:41:56,468 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-13 19:41:56,468 - discord.client - INFO - logging in using static token
+2024-07-13 19:41:56,982 - lys_bot.cogs.admin - INFO - Cog Adming inicializado
+2024-07-13 19:41:56,982 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-13 19:41:56,982 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-13 19:41:56,983 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-13 19:41:56,983 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-13 19:41:56,983 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-13 19:41:57,532 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b7ccd699a1e13a8ff876b15a0a84f155).
+2024-07-13 19:41:59,575 - lys_bot.core - INFO - Bot conectado como lys#3830

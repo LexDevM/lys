@@ -1,4 +1,4 @@
-# lys0.1.0 bot 
+# lys bot 
 
 [![Discord](https://img.shields.io/discord/123456789012345678?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/NhSyY4aqdZ)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/downloads/)

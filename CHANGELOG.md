@@ -27,4 +27,4 @@ Todas las notas de versión notables se documentarán en este archivo.
 
 ---
 
-Este archivo seguirá actualizándose con cada release para proporcionar un registro claro y conciso de todas las mejoras, adiciones y correcciones en el proyecto `lys-alpha`.
+Este archivo seguirá actualizándose con cada release para proporcionar un registro claro y conciso de todas las mejoras, adiciones y correcciones en el proyecto `lys`.

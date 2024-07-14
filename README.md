@@ -15,6 +15,8 @@ Este repositorio contiene el código fuente de un bot para Discord, desarrollado
 - [Ejecución](#ejecución)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Contribuir](#contribuciones)
+- [Configuración de logs](#configuración-de-logs)
+- [Releases](#releases)
 - [Licencia](#licencia)
 - [Créditos](#créditos)
 - [Soporte](#soporte)
@@ -106,6 +108,25 @@ Agradezco a todas las contribuciones. Para contribuir, sigue estos pasos:
 ## Configuración de logs
 
 Se ha implementado un sistema de logs para registrar eventos importantes del bot. Esto mejora la visibilidad y permite una depuración más efectiva. Revisar el archivo `bot/log_config.py` y los registros en `bot.log` para monitorear el comportamiento del bot y diagnosticar problemas.
+
+## Releases
+
+### Versión 0.1.2 (Próximo Release)
+
+- **Nuevas Características Planificadas:**
+  - Implementación de configuración avanzada de logging para mejoras en la gestión de errores y seguimiento de actividad.
+  - Mejoras en la gestión de errores y seguimiento de actividad mediante configuración avanzada de logging.
+  - Implementación de nuevos comandos para interacción más rica con los usuarios.
+  - Integración con APIs externas para funcionalidades extendidas.
+  - Mejoras en la seguridad y privacidad de datos de los usuarios.
+
+### Versión 0.1.1 (Actual)
+
+- **Características Iniciales:**
+  - Funcionalidad básica del bot con comandos básicos.
+
+Este repositorio está en desarrollo activo y continúa mejorando. Consulta el archivo [CHANGELOG.md](CHANGELOG.md) para obtener detalles completos sobre cada release y cambios específicos.
+
 
 ## Licencia
 

@@ -1,4 +1,4 @@
-# lys bot 
+# lys0.1.2 bot 
 
 [![Discord](https://img.shields.io/discord/123456789012345678?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/NhSyY4aqdZ)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/downloads/)
@@ -17,13 +17,16 @@ Este repositorio contiene el código fuente de un bot para Discord, desarrollado
 - [Contribuir](#contribuciones)
 - [Configuración de logs](#configuración-de-logs)
 - [Releases](#releases)
-- [Licencia](#licencia)
 - [Créditos](#créditos)
 - [Soporte](#soporte)
 
 ## Características
 
 - **Comando `!ping`**: Verifica la latencia del bot.
+- **Comando `!ayuda`**: Muestra los comandos disponibles.
+- **Comando `!poll`**: Crea una encuesta con múltiples opciones.
+- **Comando `!ochoball`**: Realiza una pregunta a la bola 8 mágica y obtén una respuesta aleatoria.
+- Presencia para que el bot aparezca jugando algo en Discord.
 
 ## Requisitos
 
@@ -43,7 +46,7 @@ cd lys
 
 ### Crear y activar entorno virtual
 
-Linux (SHELL terminal):
+Bash (por ejemplo: GIT terminal):
 ```bash
 python -m venv venv
 source venv/bin/activate
@@ -83,11 +86,16 @@ python main.py
         __init__.py
         admin.py
         fun.py
+        interaction_commands.py
     /bot/core
         __pycache__
         bot.py
         config.py
     /venv
+    bot.log
+    CHANGELOG.md
+    LICENSE
+    log_config.py
     main.py
     README.md
     requirements.txt
@@ -111,7 +119,7 @@ Se ha implementado un sistema de logs para registrar eventos importantes del bot
 
 ## Releases
 
-### Versión 0.1.2 (Próximo Release)
+### Versión 0.2.0 (Próximo Release)
 
 - **Nuevas Características Planificadas:**
   - Implementación de configuración avanzada de logging para mejoras en la gestión de errores y seguimiento de actividad.
@@ -120,38 +128,19 @@ Se ha implementado un sistema de logs para registrar eventos importantes del bot
   - Integración con APIs externas para funcionalidades extendidas.
   - Mejoras en la seguridad y privacidad de datos de los usuarios.
 
-### Versión 0.1.1 (Actual)
+### Versión 0.1.2 (Actual - Update 16/07/2024)
+- **Nuevos Comandos:**
 
+| Comando         | Descripción                                                                                         | Uso                                                 | Ejemplo                                              |
+|-----------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+| `!ayuda`        | Muestra los comandos disponibles o información específica sobre un comando.                         | `!ayuda`                                   | `!ayuda`                                        |
+| `!poll`         | Crea una encuesta con múltiples opciones.                                                           | `!poll ¿Tu pregunta? \| opción1 \| opción2 \| ...`   | `!poll ¿Cuál es tu película favorita? \| Avengers \| Harry Potter \| Star Wars` |
+| `!ochoball`     | Realiza una pregunta a la bola 8 mágica y obtén una respuesta aleatoria.                             | `!ochoball <tu pregunta>`                            | `!ochoball ¿Debería salir hoy?`                      |
 - **Características Iniciales:**
   - Funcionalidad básica del bot con comandos básicos.
   - Presencia para que el bot aparezca jugando algo en Discord.
 
 Este repositorio está en desarrollo activo y continúa mejorando. Consulta el archivo [CHANGELOG.md](CHANGELOG.md) para obtener detalles completos sobre cada release y cambios específicos.
-
-
-## Licencia
-
-MIT License
-
-Copyright (c) 2024 LexDevM
-
-Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia
-de este software y los archivos de documentación asociados (el "Software"), para tratar
-en el Software sin restricciones, incluidos, entre otros, los derechos
-para usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender
-copias del Software, y para permitir a las personas a quienes se les
-proporciona el Software que lo hagan, sujeto a las siguientes condiciones:
-
-El aviso de derechos de autor anterior y este aviso de permiso se incluirán en todos
-las copias o partes sustanciales del Software.
-
-EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
-IMPLÍCITA, INCLUIDAS, PERO NO LIMITADAS A LAS GARANTÍAS DE COMERCIABILIDAD,
-IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS
-AUTORES O LOS TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑO O
-OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O DE OTRO MODO,
-QUE SURJA DE, FUERA O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTROS TRATOS
-EN EL SOFTWARE.
 
 ## Créditos
 

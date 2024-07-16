@@ -28,7 +28,7 @@ class lys_bot(commands.Bot):
         await self.process_commands(message)
 
     async def load_cogs(self):
-        initial_extensions = ['bot.cogs.admin', 'bot.cogs.fun']
+        initial_extensions = ['bot.cogs.admin', 'bot.cogs.fun', 'bot.cogs.interaction_commands']
         for extension in initial_extensions:
             try:
                 await self.load_extension(extension)

@@ -33,3 +33,212 @@
 2024-07-13 19:41:56,983 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
 2024-07-13 19:41:57,532 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b7ccd699a1e13a8ff876b15a0a84f155).
 2024-07-13 19:41:59,575 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 00:57:04,000 - lys_bot.config - ERROR - Token no congfigurado en las variables de entorno
+2024-07-16 00:58:04,243 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 00:58:04,243 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 00:58:04,244 - lys_bot - INFO - Iniciando el bot
+2024-07-16 00:58:04,244 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 00:58:04,245 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 00:58:04,245 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 00:58:04,245 - discord.client - INFO - logging in using static token
+2024-07-16 00:58:04,726 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 00:58:04,726 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 00:58:04,726 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 00:58:04,729 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 00:58:04,729 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 00:58:04,730 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 00:58:05,390 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8e372c82b5ddb1617c5ca43acc7eba64).
+2024-07-16 00:58:07,423 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 00:59:26,011 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "poll" is not found
+2024-07-16 00:59:44,578 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "ochoball" is not found
+2024-07-16 01:02:12,811 - lys_bot - INFO - Bot detenido manualmente
+2024-07-16 01:02:32,874 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 01:02:32,874 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 01:02:32,875 - lys_bot - INFO - Iniciando el bot
+2024-07-16 01:02:32,876 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 01:02:32,877 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 01:02:32,877 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 01:02:32,878 - discord.client - INFO - logging in using static token
+2024-07-16 01:02:33,370 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 01:02:33,370 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 01:02:33,371 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 01:02:33,372 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 01:02:33,372 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 01:02:33,373 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 01:02:33,384 - lys_bot.core - INFO - Cargado el módulo bot.cogs.interaction_commands
+2024-07-16 01:02:33,935 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 980808d8948e966ecbf90a099f37cb7a).
+2024-07-16 01:02:35,962 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 01:02:47,815 - discord.ext.commands.bot - ERROR - Ignoring exception in command ochoball
+Traceback (most recent call last):
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1366, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\core.py", line 853, in _parse_arguments
+    kwargs[name] = await self.transform(ctx, param, attachments)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: question is a required argument that is missing.
+2024-07-16 01:05:58,180 - discord.ext.commands.bot - ERROR - Ignoring exception in command poll
+Traceback (most recent call last):
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1366, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bmaci\OneDrive\Escritorio\lys\lys\.venv\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: question is a required argument that is missing.
+2024-07-16 01:14:33,934 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 01:14:33,935 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 01:14:33,936 - lys_bot - INFO - Iniciando el bot
+2024-07-16 01:14:33,936 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 01:14:33,937 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 01:14:33,937 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 01:14:33,937 - discord.client - INFO - logging in using static token
+2024-07-16 01:14:34,610 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 01:14:34,611 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 01:14:34,611 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 01:14:34,612 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 01:14:34,612 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 01:14:34,612 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 01:14:34,626 - lys_bot.core - ERROR - Error al cargar el módulo bot.cogs.interaction_commands: Extension 'bot.cogs.interaction_commands' raised an error: CommandRegistrationError: The command help is already an existing command or alias.
+2024-07-16 01:14:35,161 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c3f8c66eedfe8d307c715b09f68ca617).
+2024-07-16 01:14:37,175 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 01:16:36,156 - lys_bot - INFO - Bot detenido manualmente
+2024-07-16 01:16:51,996 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 01:16:51,996 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 01:16:51,997 - lys_bot - INFO - Iniciando el bot
+2024-07-16 01:16:51,997 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 01:16:51,998 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 01:16:51,998 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 01:16:51,998 - discord.client - INFO - logging in using static token
+2024-07-16 01:16:52,539 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 01:16:52,539 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 01:16:52,539 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 01:16:52,540 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 01:16:52,541 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 01:16:52,541 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 01:16:52,545 - lys_bot.core - ERROR - Error al cargar el módulo bot.cogs.interaction_commands: Extension 'bot.cogs.interaction_commands' raised an error: CommandRegistrationError: The command help is already an existing command or alias.
+2024-07-16 01:16:53,027 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7b9b29fabf67d5154dae685e22db3544).
+2024-07-16 01:16:55,046 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 01:23:12,787 - lys_bot - INFO - Bot detenido manualmente
+2024-07-16 01:23:16,917 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 01:23:16,918 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 01:23:16,919 - lys_bot - INFO - Iniciando el bot
+2024-07-16 01:23:16,919 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 01:23:16,920 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 01:23:16,920 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 01:23:16,921 - discord.client - INFO - logging in using static token
+2024-07-16 01:23:17,790 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 01:23:17,790 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 01:23:17,790 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 01:23:17,791 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 01:23:17,792 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 01:23:17,792 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 01:23:17,806 - lys_bot.core - INFO - Cargado el módulo bot.cogs.interaction_commands
+2024-07-16 01:23:18,359 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5ff9eac8856e72be02add06057daca5b).
+2024-07-16 01:23:20,374 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 01:30:22,754 - lys_bot - INFO - Bot detenido manualmente
+2024-07-16 01:30:25,947 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 01:30:25,947 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 01:30:25,948 - lys_bot - INFO - Iniciando el bot
+2024-07-16 01:30:25,949 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 01:30:25,949 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 01:30:25,950 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 01:30:25,950 - discord.client - INFO - logging in using static token
+2024-07-16 01:30:26,783 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 01:30:26,784 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 01:30:26,784 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 01:30:26,786 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 01:30:26,786 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 01:30:26,786 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 01:30:26,799 - lys_bot.core - INFO - Cargado el módulo bot.cogs.interaction_commands
+2024-07-16 01:30:27,395 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 84cd6d213413fcc39cfa38ad7ed91b7e).
+2024-07-16 01:30:29,434 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 01:36:45,096 - lys_bot - INFO - Bot detenido manualmente
+2024-07-16 01:36:47,017 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 01:36:47,017 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 01:36:47,018 - lys_bot - INFO - Iniciando el bot
+2024-07-16 01:36:47,019 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 01:36:47,020 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 01:36:47,020 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 01:36:47,020 - discord.client - INFO - logging in using static token
+2024-07-16 01:36:47,774 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 01:36:47,775 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 01:36:47,775 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 01:36:47,776 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 01:36:47,777 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 01:36:47,777 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 01:36:47,789 - lys_bot.core - INFO - Cargado el módulo bot.cogs.interaction_commands
+2024-07-16 01:36:48,331 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 2bafebaba7c4aae1126dfa7c92c914e5).
+2024-07-16 01:36:50,360 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 01:37:03,212 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "hola" is not found
+2024-07-16 01:37:10,411 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "ayuda" is not found
+2024-07-16 01:37:39,719 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 01:37:39,719 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 01:37:39,720 - lys_bot - INFO - Iniciando el bot
+2024-07-16 01:37:39,721 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 01:37:39,721 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 01:37:39,722 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 01:37:39,722 - discord.client - INFO - logging in using static token
+2024-07-16 01:37:40,583 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 01:37:40,584 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 01:37:40,584 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 01:37:40,585 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 01:37:40,585 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 01:37:40,585 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 01:37:40,586 - lys_bot.core - INFO - Cargado el módulo bot.cogs.interaction_commands
+2024-07-16 01:37:41,038 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3a93f95bf2c2ecb5316910618cff21d6).
+2024-07-16 01:37:43,067 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 01:38:14,327 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "comandoquenoexiste" is not found
+2024-07-16 01:39:32,423 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "ayuda" is not found
+2024-07-16 01:40:47,193 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "ochoball" is not found
+2024-07-16 01:42:25,772 - lys_bot - INFO - Bot detenido manualmente
+2024-07-16 01:42:27,918 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 01:42:27,918 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 01:42:27,919 - lys_bot - INFO - Iniciando el bot
+2024-07-16 01:42:27,920 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 01:42:27,921 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 01:42:27,921 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 01:42:27,921 - discord.client - INFO - logging in using static token
+2024-07-16 01:42:28,421 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 01:42:28,422 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 01:42:28,422 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 01:42:28,423 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 01:42:28,424 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 01:42:28,424 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 01:42:28,437 - lys_bot.core - INFO - Cargado el módulo bot.cogs.interaction_commands
+2024-07-16 01:42:29,009 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3702c2f3067d23b75733c01a77eaba42).
+2024-07-16 01:42:31,019 - lys_bot.core - INFO - Bot conectado como lys#3830
+2024-07-16 01:49:53,044 - lys_bot - INFO - Bot detenido manualmente
+2024-07-16 01:49:55,415 - lys_bot.config - INFO - Token configurado correctamente
+2024-07-16 01:49:55,416 - lys_bot.config - INFO - Prefijo de comandos configurado: !
+2024-07-16 01:49:55,416 - lys_bot - INFO - Iniciando el bot
+2024-07-16 01:49:55,417 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-16 01:49:55,418 - lys_bot.core - INFO - Bot inicializado con prefijo: !
+2024-07-16 01:49:55,418 - lys_bot - INFO - Intentando iniciar el bot
+2024-07-16 01:49:55,418 - discord.client - INFO - logging in using static token
+2024-07-16 01:49:55,843 - lys_bot.cogs.admin - INFO - Cog Admin inicializado
+2024-07-16 01:49:55,844 - lys_bot.cogs.admin - INFO - Cog Admin añadido al bot
+2024-07-16 01:49:55,844 - lys_bot.core - INFO - Cargado el módulo bot.cogs.admin
+2024-07-16 01:49:55,845 - lys_bot.cogs.fun - INFO - Cog Fun inicializado
+2024-07-16 01:49:55,846 - lys_bot.cogs.fun - INFO - Cog Fun añadido al bot
+2024-07-16 01:49:55,846 - lys_bot.core - INFO - Cargado el módulo bot.cogs.fun
+2024-07-16 01:49:55,859 - lys_bot.core - INFO - Cargado el módulo bot.cogs.interaction_commands
+2024-07-16 01:49:56,463 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 9655787b83bbbd91f80073296a4851b0).
+2024-07-16 01:49:58,478 - lys_bot.core - INFO - Bot conectado como lys#3830
